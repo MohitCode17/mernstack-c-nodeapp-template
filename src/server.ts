@@ -1,11 +1,11 @@
 function welcome(name: string) {
-  // const username = {
-  //   fname: "Mohit",
-  // }
+  const username = {
+    fname: "Mohit",
+  };
 
-  // const firstName = username.fname;
-  // console.log(firstName);
-  console.log("Welcome" + name);
+  const firstName = username.fname;
+
+  return name + firstName;
 }
 
 welcome("Mohit");
